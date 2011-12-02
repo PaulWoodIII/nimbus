@@ -442,9 +442,9 @@ const SCNetworkReachabilityFlags kConnectionDown =  kSCNetworkReachabilityFlagsC
 		if (flags & kSCNetworkReachabilityFlagsIsWWAN) { return kReachableViaWWAN; }
 		
 		// Clear moot bits.
-		flags &= ~kSCNetworkReachabilityFlagsReachable;
-		flags &= ~kSCNetworkReachabilityFlagsIsDirect;
-		flags &= ~kSCNetworkReachabilityFlagsIsLocalAddress; // kInternetConnection is local.
+		flags &= ~(unsigned int)kSCNetworkReachabilityFlagsReachable;
+		flags &= ~(unsigned int)kSCNetworkReachabilityFlagsIsDirect;
+		flags &= ~(unsigned int)kSCNetworkReachabilityFlagsIsLocalAddress; // kInternetConnection is local.
 		
 		// Reachability Flag Status: -R ct---xx Connection down.
 		if (flags == kConnectionDown) { return kNotReachable; }
