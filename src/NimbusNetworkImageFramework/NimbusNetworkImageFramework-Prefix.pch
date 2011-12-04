@@ -1,0 +1,7 @@
+//
+// Prefix header for all source files of the 'NimbusNetworkImageFramework' target in the 'NimbusNetworkImageFramework' project
+//
+
+#ifdef __OBJC__
+    #import <Foundation/Foundation.h>
+#endif
