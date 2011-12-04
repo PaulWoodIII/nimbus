@@ -292,7 +292,7 @@
 		AA7DF071148B8E3B00DD0E05 /* NIInMemoryCache.h in Headers */ = {isa = PBXBuildFile; fileRef = 66A03C4D13E6E8D100B514F3 /* NIInMemoryCache.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		AA7DF072148B8E3B00DD0E05 /* NimbusCore+Additions.h in Headers */ = {isa = PBXBuildFile; fileRef = 66A03C4F13E6E8D100B514F3 /* NimbusCore+Additions.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		AA7DF073148B8E3B00DD0E05 /* NimbusCore.h in Headers */ = {isa = PBXBuildFile; fileRef = 66A03C5013E6E8D100B514F3 /* NimbusCore.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		AA7DF074148B8E3B00DD0E05 /* NINavigationAppearance.h in Headers */ = {isa = PBXBuildFile; fileRef = FD01BED914179D940023D783 /* NINavigationAppearance.h */; settings = {ATTRIBUTES = (); }; };
+		AA7DF074148B8E3B00DD0E05 /* NINavigationAppearance.h in Headers */ = {isa = PBXBuildFile; fileRef = FD01BED914179D940023D783 /* NINavigationAppearance.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		AA7DF075148B8E3B00DD0E05 /* NINetworkActivity.h in Headers */ = {isa = PBXBuildFile; fileRef = 66A03C5113E6E8D100B514F3 /* NINetworkActivity.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		AA7DF076148B8E3B00DD0E05 /* NINonEmptyCollectionTesting.h in Headers */ = {isa = PBXBuildFile; fileRef = 66A03C5313E6E8D100B514F3 /* NINonEmptyCollectionTesting.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		AA7DF077148B8E3B00DD0E05 /* NINonRetainingCollections.h in Headers */ = {isa = PBXBuildFile; fileRef = 66A03C5513E6E8D100B514F3 /* NINonRetainingCollections.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -302,7 +302,7 @@
 		AA7DF07B148B8E3B00DD0E05 /* NIRuntimeClassModifications.h in Headers */ = {isa = PBXBuildFile; fileRef = 66A03C5C13E6E8D100B514F3 /* NIRuntimeClassModifications.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		AA7DF07C148B8E3B00DD0E05 /* NISDKAvailability.h in Headers */ = {isa = PBXBuildFile; fileRef = 66A03C5E13E6E8D100B514F3 /* NISDKAvailability.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		AA7DF07D148B8E3B00DD0E05 /* NIState.h in Headers */ = {isa = PBXBuildFile; fileRef = 66A03C6013E6E8D100B514F3 /* NIState.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		AA7DF07E148B8E3B00DD0E05 /* NIViewRecycler.h in Headers */ = {isa = PBXBuildFile; fileRef = 6675E4B11455FCC5007D172F /* NIViewRecycler.h */; };
+		AA7DF07E148B8E3B00DD0E05 /* NIViewRecycler.h in Headers */ = {isa = PBXBuildFile; fileRef = 6675E4B11455FCC5007D172F /* NIViewRecycler.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		AA7DF07F148B8E3B00DD0E05 /* NSData+NimbusCore.h in Headers */ = {isa = PBXBuildFile; fileRef = 66A03CB613E6EFAF00B514F3 /* NSData+NimbusCore.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		AA7DF080148B8E3B00DD0E05 /* NSString+NimbusCore.h in Headers */ = {isa = PBXBuildFile; fileRef = 66A03CB713E6EFAF00B514F3 /* NSString+NimbusCore.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		AA7DF089148B911F00DD0E05 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 66A03C0C13E6E85E00B514F3 /* Foundation.framework */; };
@@ -2091,9 +2091,9 @@
 				AA7DF07C148B8E3B00DD0E05 /* NISDKAvailability.h in Headers */,
 				AA7DF07D148B8E3B00DD0E05 /* NIState.h in Headers */,
 				AA7DF07F148B8E3B00DD0E05 /* NSData+NimbusCore.h in Headers */,
-				AA7DF080148B8E3B00DD0E05 /* NSString+NimbusCore.h in Headers */,
 				AA7DF07E148B8E3B00DD0E05 /* NIViewRecycler.h in Headers */,
 				AA7DF074148B8E3B00DD0E05 /* NINavigationAppearance.h in Headers */,
+				AA7DF080148B8E3B00DD0E05 /* NSString+NimbusCore.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -5319,6 +5319,7 @@
 				AA7DF0AD148B983000DD0E05 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		DB3A232C13FD4B8F00614220 /* Build configuration list for PBXNativeTarget "NimbusAttributedLabel" */ = {
 			isa = XCConfigurationList;
