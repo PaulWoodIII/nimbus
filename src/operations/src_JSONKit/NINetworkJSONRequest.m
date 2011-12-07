@@ -14,35 +14,17 @@
 // limitations under the License.
 //
 
-#import "NINetworkJSONRequest.h"
+#import <Foundation/Foundation.h>
+#import <UIKit/UIKit.h>
 
-#import "NIOperations+Subclassing.h"
-#import "JSONKit.h"
+#import "NimbusCore.h"
 
-//
-// Compiler errors? JSONKit.h file not found?
-// Get JSONKit from https://github.com/johnezang/JSONKit
-// git checkout https://github.com/johnezang/JSONKit.git
-// Drag JSONKit.h and JSONKit.m to your project.
-//
-
-
-///////////////////////////////////////////////////////////////////////////////////////////////////
-///////////////////////////////////////////////////////////////////////////////////////////////////
-///////////////////////////////////////////////////////////////////////////////////////////////////
-@implementation NINetworkJSONRequest
-
-
-///////////////////////////////////////////////////////////////////////////////////////////////////
-- (void)operationWillFinish {
-  NSError* error = nil;
-  self.processedObject = [[JSONDecoder decoder] objectWithData:self.data
-                                                         error:&error];
-
-  self.lastError = error;
-
-  [super operationWillFinish];
-}
-
-
+/**
+ * A processor that uses JSONKit to turn the JSON response into objects.
+ *
+ *      @attention Depends on the JSONKit source being included in the app.
+ *
+ *      @ingroup Network-Processors
+ */
+@interface NINetworkJSONRequest : NINetworkRequestOperation
 @end
