@@ -703,17 +703,11 @@
 		66FE7D6613FB83620061B987 /* NITableViewModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NITableViewModel.m; sourceTree = "<group>"; };
 		66FE7D6813FB83620061B987 /* NimbusModelsTests-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "NimbusModelsTests-Info.plist"; sourceTree = "<group>"; };
 		AA7DF04A148B8C7F00DD0E05 /* NimbusCoreFramework.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework.static; includeInIndex = 0; path = NimbusCoreFramework.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		AA7DF04E148B8C7F00DD0E05 /* NimbusCoreFramework-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "NimbusCoreFramework-Info.plist"; sourceTree = "<group>"; };
 		AA7DF050148B8C7F00DD0E05 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
-		AA7DF052148B8C7F00DD0E05 /* NimbusCoreFramework-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NimbusCoreFramework-Prefix.pch"; sourceTree = "<group>"; };
 		AA7DF088148B911E00DD0E05 /* NimbusNetworkImageFramework.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework.static; includeInIndex = 0; path = NimbusNetworkImageFramework.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		AA7DF08C148B911F00DD0E05 /* NimbusNetworkImageFramework-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "NimbusNetworkImageFramework-Info.plist"; sourceTree = "<group>"; };
 		AA7DF08E148B911F00DD0E05 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
-		AA7DF090148B911F00DD0E05 /* NimbusNetworkImageFramework-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NimbusNetworkImageFramework-Prefix.pch"; sourceTree = "<group>"; };
 		AA7DF0A3148B982F00DD0E05 /* NimbusAttributedLabelFramework.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework.static; includeInIndex = 0; path = NimbusAttributedLabelFramework.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		AA7DF0A7148B983000DD0E05 /* NimbusAttributedLabelFramework-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "NimbusAttributedLabelFramework-Info.plist"; sourceTree = "<group>"; };
 		AA7DF0A9148B983000DD0E05 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
-		AA7DF0AB148B983000DD0E05 /* NimbusAttributedLabelFramework-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NimbusAttributedLabelFramework-Prefix.pch"; sourceTree = "<group>"; };
 		DB3A230913FD4B8E00614220 /* libNimbusAttributedLabel.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libNimbusAttributedLabel.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		DB3A231613FD4B8E00614220 /* NimbusAttributedLabelTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NimbusAttributedLabelTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
 		DB3A233213FD4BE500614220 /* NIAttributedLabel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NIAttributedLabel.h; sourceTree = "<group>"; };
@@ -1312,11 +1306,6 @@
 				663B52411445052800CC26DF /* NimbusPagingScrollView */,
 				6675727C13E769150076F555 /* NimbusPhotos */,
 				DB84BD9A13EFDE3C00DACCFE /* NimbusWebController */,
-<<<<<<< HEAD
-				66A03D7313E6FAAC00B514F3 /* Third Party */,
-				AA7DF0B0148B983F00DD0E05 /* NimbusFrameworks */,
-=======
->>>>>>> upstream/master
 				66A03C0B13E6E85E00B514F3 /* Frameworks */,
 				66A03C0A13E6E85E00B514F3 /* Products */,
 			);
@@ -1598,70 +1587,6 @@
 			name = unittests;
 			path = models/unittests;
 			sourceTree = SOURCE_ROOT;
-		};
-		AA7DF04C148B8C7F00DD0E05 /* NimbusCoreFramework */ = {
-			isa = PBXGroup;
-			children = (
-				AA7DF04D148B8C7F00DD0E05 /* Supporting Files */,
-			);
-			path = NimbusCoreFramework;
-			sourceTree = "<group>";
-		};
-		AA7DF04D148B8C7F00DD0E05 /* Supporting Files */ = {
-			isa = PBXGroup;
-			children = (
-				AA7DF04E148B8C7F00DD0E05 /* NimbusCoreFramework-Info.plist */,
-				AA7DF04F148B8C7F00DD0E05 /* InfoPlist.strings */,
-				AA7DF052148B8C7F00DD0E05 /* NimbusCoreFramework-Prefix.pch */,
-			);
-			name = "Supporting Files";
-			sourceTree = "<group>";
-		};
-		AA7DF08A148B911F00DD0E05 /* NimbusNetworkImageFramework */ = {
-			isa = PBXGroup;
-			children = (
-				AA7DF08B148B911F00DD0E05 /* Supporting Files */,
-			);
-			path = NimbusNetworkImageFramework;
-			sourceTree = "<group>";
-		};
-		AA7DF08B148B911F00DD0E05 /* Supporting Files */ = {
-			isa = PBXGroup;
-			children = (
-				AA7DF08C148B911F00DD0E05 /* NimbusNetworkImageFramework-Info.plist */,
-				AA7DF08D148B911F00DD0E05 /* InfoPlist.strings */,
-				AA7DF090148B911F00DD0E05 /* NimbusNetworkImageFramework-Prefix.pch */,
-			);
-			name = "Supporting Files";
-			sourceTree = "<group>";
-		};
-		AA7DF0A5148B983000DD0E05 /* NimbusAttributedLabelFramework */ = {
-			isa = PBXGroup;
-			children = (
-				AA7DF0A6148B983000DD0E05 /* Supporting Files */,
-			);
-			path = NimbusAttributedLabelFramework;
-			sourceTree = "<group>";
-		};
-		AA7DF0A6148B983000DD0E05 /* Supporting Files */ = {
-			isa = PBXGroup;
-			children = (
-				AA7DF0A7148B983000DD0E05 /* NimbusAttributedLabelFramework-Info.plist */,
-				AA7DF0A8148B983000DD0E05 /* InfoPlist.strings */,
-				AA7DF0AB148B983000DD0E05 /* NimbusAttributedLabelFramework-Prefix.pch */,
-			);
-			name = "Supporting Files";
-			sourceTree = "<group>";
-		};
-		AA7DF0B0148B983F00DD0E05 /* NimbusFrameworks */ = {
-			isa = PBXGroup;
-			children = (
-				AA7DF04C148B8C7F00DD0E05 /* NimbusCoreFramework */,
-				AA7DF08A148B911F00DD0E05 /* NimbusNetworkImageFramework */,
-				AA7DF0A5148B983000DD0E05 /* NimbusAttributedLabelFramework */,
-			);
-			name = NimbusFrameworks;
-			sourceTree = "<group>";
 		};
 		DB3A230B13FD4B8E00614220 /* NimbusAttributedLabel */ = {
 			isa = PBXGroup;
@@ -4258,6 +4183,7 @@
 			name = Release;
 		};
 		66C3A6BF143D61140048542F /* Debug */ = {
+<<<<<<< HEAD
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -4302,6 +4228,8 @@
 			name = Release;
 		};
 		66C3A6C2143D61140048542F /* Debug */ = {
+=======
+>>>>>>> upstream/master
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
