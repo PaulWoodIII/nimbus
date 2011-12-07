@@ -230,64 +230,6 @@
 		66FE7D6B13FB83620061B987 /* NimbusModels.h in Headers */ = {isa = PBXBuildFile; fileRef = 66FE7D6413FB83620061B987 /* NimbusModels.h */; };
 		66FE7D6C13FB83620061B987 /* NITableViewModel.h in Headers */ = {isa = PBXBuildFile; fileRef = 66FE7D6513FB83620061B987 /* NITableViewModel.h */; };
 		66FE7D6D13FB83620061B987 /* NITableViewModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 66FE7D6613FB83620061B987 /* NITableViewModel.m */; };
-		AA7DF04B148B8C7F00DD0E05 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 66A03C0C13E6E85E00B514F3 /* Foundation.framework */; };
-		AA7DF051148B8C7F00DD0E05 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = AA7DF04F148B8C7F00DD0E05 /* InfoPlist.strings */; };
-		AA7DF057148B8DFA00DD0E05 /* NICommonMetrics.m in Sources */ = {isa = PBXBuildFile; fileRef = 66A03C4213E6E8D100B514F3 /* NICommonMetrics.m */; };
-		AA7DF058148B8DFA00DD0E05 /* NIDataStructures.m in Sources */ = {isa = PBXBuildFile; fileRef = 66A03C4413E6E8D100B514F3 /* NIDataStructures.m */; };
-		AA7DF059148B8DFA00DD0E05 /* NIDebuggingTools.m in Sources */ = {isa = PBXBuildFile; fileRef = 66A03C4613E6E8D100B514F3 /* NIDebuggingTools.m */; };
-		AA7DF05A148B8DFA00DD0E05 /* NIDeviceOrientation.m in Sources */ = {isa = PBXBuildFile; fileRef = 66A03C4813E6E8D100B514F3 /* NIDeviceOrientation.m */; };
-		AA7DF05B148B8DFA00DD0E05 /* NIError.m in Sources */ = {isa = PBXBuildFile; fileRef = 66A03C4A13E6E8D100B514F3 /* NIError.m */; };
-		AA7DF05C148B8DFA00DD0E05 /* NIFoundationMethods.m in Sources */ = {isa = PBXBuildFile; fileRef = 66A03C4C13E6E8D100B514F3 /* NIFoundationMethods.m */; };
-		AA7DF05D148B8DFA00DD0E05 /* NIInMemoryCache.m in Sources */ = {isa = PBXBuildFile; fileRef = 66A03C4E13E6E8D100B514F3 /* NIInMemoryCache.m */; };
-		AA7DF05E148B8DFA00DD0E05 /* NINavigationAppearance.m in Sources */ = {isa = PBXBuildFile; fileRef = FD01BEDA14179D940023D783 /* NINavigationAppearance.m */; };
-		AA7DF05F148B8DFA00DD0E05 /* NINetworkActivity.m in Sources */ = {isa = PBXBuildFile; fileRef = 66A03C5213E6E8D100B514F3 /* NINetworkActivity.m */; };
-		AA7DF060148B8DFA00DD0E05 /* NINonEmptyCollectionTesting.m in Sources */ = {isa = PBXBuildFile; fileRef = 66A03C5413E6E8D100B514F3 /* NINonEmptyCollectionTesting.m */; };
-		AA7DF061148B8DFA00DD0E05 /* NINonRetainingCollections.m in Sources */ = {isa = PBXBuildFile; fileRef = 66A03C5613E6E8D100B514F3 /* NINonRetainingCollections.m */; };
-		AA7DF062148B8DFA00DD0E05 /* NIOperations.m in Sources */ = {isa = PBXBuildFile; fileRef = 66A03C5813E6E8D100B514F3 /* NIOperations.m */; };
-		AA7DF063148B8DFA00DD0E05 /* NIPaths.m in Sources */ = {isa = PBXBuildFile; fileRef = 66A03C5A13E6E8D100B514F3 /* NIPaths.m */; };
-		AA7DF064148B8DFA00DD0E05 /* NIRuntimeClassModifications.m in Sources */ = {isa = PBXBuildFile; fileRef = 66A03C5D13E6E8D100B514F3 /* NIRuntimeClassModifications.m */; };
-		AA7DF065148B8DFA00DD0E05 /* NISDKAvailability.m in Sources */ = {isa = PBXBuildFile; fileRef = 66A03C5F13E6E8D100B514F3 /* NISDKAvailability.m */; };
-		AA7DF066148B8DFA00DD0E05 /* NIState.m in Sources */ = {isa = PBXBuildFile; fileRef = 66A03C6113E6E8D100B514F3 /* NIState.m */; };
-		AA7DF067148B8DFA00DD0E05 /* NIViewRecycler.m in Sources */ = {isa = PBXBuildFile; fileRef = 6675E4B21455FCC5007D172F /* NIViewRecycler.m */; };
-		AA7DF068148B8DFA00DD0E05 /* NSData+NimbusCore.m in Sources */ = {isa = PBXBuildFile; fileRef = 66A03C6213E6E8D100B514F3 /* NSData+NimbusCore.m */; };
-		AA7DF069148B8DFA00DD0E05 /* NSString+NimbusCore.m in Sources */ = {isa = PBXBuildFile; fileRef = 66A03C6313E6E8D100B514F3 /* NSString+NimbusCore.m */; };
-		AA7DF06A148B8E3B00DD0E05 /* NIBlocks.h in Headers */ = {isa = PBXBuildFile; fileRef = 66A03C4013E6E8D100B514F3 /* NIBlocks.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		AA7DF06B148B8E3B00DD0E05 /* NICommonMetrics.h in Headers */ = {isa = PBXBuildFile; fileRef = 66A03C4113E6E8D100B514F3 /* NICommonMetrics.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		AA7DF06C148B8E3B00DD0E05 /* NIDataStructures.h in Headers */ = {isa = PBXBuildFile; fileRef = 66A03C4313E6E8D100B514F3 /* NIDataStructures.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		AA7DF06D148B8E3B00DD0E05 /* NIDebuggingTools.h in Headers */ = {isa = PBXBuildFile; fileRef = 66A03C4513E6E8D100B514F3 /* NIDebuggingTools.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		AA7DF06E148B8E3B00DD0E05 /* NIDeviceOrientation.h in Headers */ = {isa = PBXBuildFile; fileRef = 66A03C4713E6E8D100B514F3 /* NIDeviceOrientation.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		AA7DF06F148B8E3B00DD0E05 /* NIError.h in Headers */ = {isa = PBXBuildFile; fileRef = 66A03C4913E6E8D100B514F3 /* NIError.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		AA7DF070148B8E3B00DD0E05 /* NIFoundationMethods.h in Headers */ = {isa = PBXBuildFile; fileRef = 66A03C4B13E6E8D100B514F3 /* NIFoundationMethods.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		AA7DF071148B8E3B00DD0E05 /* NIInMemoryCache.h in Headers */ = {isa = PBXBuildFile; fileRef = 66A03C4D13E6E8D100B514F3 /* NIInMemoryCache.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		AA7DF072148B8E3B00DD0E05 /* NimbusCore+Additions.h in Headers */ = {isa = PBXBuildFile; fileRef = 66A03C4F13E6E8D100B514F3 /* NimbusCore+Additions.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		AA7DF073148B8E3B00DD0E05 /* NimbusCore.h in Headers */ = {isa = PBXBuildFile; fileRef = 66A03C5013E6E8D100B514F3 /* NimbusCore.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		AA7DF074148B8E3B00DD0E05 /* NINavigationAppearance.h in Headers */ = {isa = PBXBuildFile; fileRef = FD01BED914179D940023D783 /* NINavigationAppearance.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		AA7DF075148B8E3B00DD0E05 /* NINetworkActivity.h in Headers */ = {isa = PBXBuildFile; fileRef = 66A03C5113E6E8D100B514F3 /* NINetworkActivity.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		AA7DF076148B8E3B00DD0E05 /* NINonEmptyCollectionTesting.h in Headers */ = {isa = PBXBuildFile; fileRef = 66A03C5313E6E8D100B514F3 /* NINonEmptyCollectionTesting.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		AA7DF077148B8E3B00DD0E05 /* NINonRetainingCollections.h in Headers */ = {isa = PBXBuildFile; fileRef = 66A03C5513E6E8D100B514F3 /* NINonRetainingCollections.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		AA7DF078148B8E3B00DD0E05 /* NIOperations.h in Headers */ = {isa = PBXBuildFile; fileRef = 66A03C5713E6E8D100B514F3 /* NIOperations.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		AA7DF079148B8E3B00DD0E05 /* NIPaths.h in Headers */ = {isa = PBXBuildFile; fileRef = 66A03C5913E6E8D100B514F3 /* NIPaths.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		AA7DF07A148B8E3B00DD0E05 /* NIPreprocessorMacros.h in Headers */ = {isa = PBXBuildFile; fileRef = 66A03C5B13E6E8D100B514F3 /* NIPreprocessorMacros.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		AA7DF07B148B8E3B00DD0E05 /* NIRuntimeClassModifications.h in Headers */ = {isa = PBXBuildFile; fileRef = 66A03C5C13E6E8D100B514F3 /* NIRuntimeClassModifications.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		AA7DF07C148B8E3B00DD0E05 /* NISDKAvailability.h in Headers */ = {isa = PBXBuildFile; fileRef = 66A03C5E13E6E8D100B514F3 /* NISDKAvailability.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		AA7DF07D148B8E3B00DD0E05 /* NIState.h in Headers */ = {isa = PBXBuildFile; fileRef = 66A03C6013E6E8D100B514F3 /* NIState.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		AA7DF07E148B8E3B00DD0E05 /* NIViewRecycler.h in Headers */ = {isa = PBXBuildFile; fileRef = 6675E4B11455FCC5007D172F /* NIViewRecycler.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		AA7DF07F148B8E3B00DD0E05 /* NSData+NimbusCore.h in Headers */ = {isa = PBXBuildFile; fileRef = 66A03CB613E6EFAF00B514F3 /* NSData+NimbusCore.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		AA7DF080148B8E3B00DD0E05 /* NSString+NimbusCore.h in Headers */ = {isa = PBXBuildFile; fileRef = 66A03CB713E6EFAF00B514F3 /* NSString+NimbusCore.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		AA7DF089148B911F00DD0E05 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 66A03C0C13E6E85E00B514F3 /* Foundation.framework */; };
-		AA7DF08F148B911F00DD0E05 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = AA7DF08D148B911F00DD0E05 /* InfoPlist.strings */; };
-		AA7DF094148B919F00DD0E05 /* NINetworkImageRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = 66A03D5113E6F99400B514F3 /* NINetworkImageRequest.m */; };
-		AA7DF095148B919F00DD0E05 /* NINetworkImageView.m in Sources */ = {isa = PBXBuildFile; fileRef = 66A03D5413E6F99400B514F3 /* NINetworkImageView.m */; };
-		AA7DF096148B91AE00DD0E05 /* NINetworkImageRequest.h in Headers */ = {isa = PBXBuildFile; fileRef = 66A03D5013E6F99400B514F3 /* NINetworkImageRequest.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		AA7DF097148B91AE00DD0E05 /* NimbusNetworkImage.h in Headers */ = {isa = PBXBuildFile; fileRef = 66A03D5213E6F99400B514F3 /* NimbusNetworkImage.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		AA7DF098148B91AE00DD0E05 /* NINetworkImageView.h in Headers */ = {isa = PBXBuildFile; fileRef = 66A03D5313E6F99400B514F3 /* NINetworkImageView.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		AA7DF0A4148B983000DD0E05 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 66A03C0C13E6E85E00B514F3 /* Foundation.framework */; };
-		AA7DF0AA148B983000DD0E05 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = AA7DF0A8148B983000DD0E05 /* InfoPlist.strings */; };
-		AA7DF0B1148B98B500DD0E05 /* NIAttributedLabel.m in Sources */ = {isa = PBXBuildFile; fileRef = DB3A233313FD4BE500614220 /* NIAttributedLabel.m */; };
-		AA7DF0B2148B98B500DD0E05 /* NSAttributedString+NimbusAttributedLabel.m in Sources */ = {isa = PBXBuildFile; fileRef = DB6AADF51407A5FF0003CB63 /* NSAttributedString+NimbusAttributedLabel.m */; };
-		AA7DF0B3148B98C000DD0E05 /* NimbusAttributedLabel.h in Headers */ = {isa = PBXBuildFile; fileRef = DB3A233413FD4BE500614220 /* NimbusAttributedLabel.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		AA7DF0B4148B98C000DD0E05 /* NIAttributedLabel.h in Headers */ = {isa = PBXBuildFile; fileRef = DB3A233213FD4BE500614220 /* NIAttributedLabel.h */; };
-		AA7DF0B5148B98C000DD0E05 /* NSAttributedString+NimbusAttributedLabel.h in Headers */ = {isa = PBXBuildFile; fileRef = DB6AADF41407A5FF0003CB63 /* NSAttributedString+NimbusAttributedLabel.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		DB3A230A13FD4B8E00614220 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 66A03C0C13E6E85E00B514F3 /* Foundation.framework */; };
 		DB3A231713FD4B8E00614220 /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 66A03C1A13E6E85E00B514F3 /* SenTestingKit.framework */; };
 		DB3A231913FD4B8E00614220 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 66A03C0C13E6E85E00B514F3 /* Foundation.framework */; };
@@ -702,12 +644,6 @@
 		66FE7D6513FB83620061B987 /* NITableViewModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NITableViewModel.h; sourceTree = "<group>"; };
 		66FE7D6613FB83620061B987 /* NITableViewModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NITableViewModel.m; sourceTree = "<group>"; };
 		66FE7D6813FB83620061B987 /* NimbusModelsTests-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "NimbusModelsTests-Info.plist"; sourceTree = "<group>"; };
-		AA7DF04A148B8C7F00DD0E05 /* NimbusCoreFramework.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework.static; includeInIndex = 0; path = NimbusCoreFramework.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		AA7DF050148B8C7F00DD0E05 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
-		AA7DF088148B911E00DD0E05 /* NimbusNetworkImageFramework.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework.static; includeInIndex = 0; path = NimbusNetworkImageFramework.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		AA7DF08E148B911F00DD0E05 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
-		AA7DF0A3148B982F00DD0E05 /* NimbusAttributedLabelFramework.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework.static; includeInIndex = 0; path = NimbusAttributedLabelFramework.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		AA7DF0A9148B983000DD0E05 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		DB3A230913FD4B8E00614220 /* libNimbusAttributedLabel.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libNimbusAttributedLabel.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		DB3A231613FD4B8E00614220 /* NimbusAttributedLabelTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NimbusAttributedLabelTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
 		DB3A233213FD4BE500614220 /* NIAttributedLabel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NIAttributedLabel.h; sourceTree = "<group>"; };
@@ -913,30 +849,6 @@
 				66C3A6AF143D61140048542F /* SenTestingKit.framework in Frameworks */,
 				66C3A6B1143D61140048542F /* Foundation.framework in Frameworks */,
 				66C3A6B4143D61140048542F /* libNimbusCss.a in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		AA7DF045148B8C7F00DD0E05 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				AA7DF04B148B8C7F00DD0E05 /* Foundation.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		AA7DF083148B911E00DD0E05 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				AA7DF089148B911F00DD0E05 /* Foundation.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		AA7DF09E148B982F00DD0E05 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				AA7DF0A4148B983000DD0E05 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1338,9 +1250,6 @@
 				66C3A6AE143D61140048542F /* NimbusCssTests.octest */,
 				663B523F1445052700CC26DF /* libNimbusPagingScrollView.a */,
 				663B524C1445052800CC26DF /* NimbusPagingScrollViewTests.octest */,
-				AA7DF04A148B8C7F00DD0E05 /* NimbusCoreFramework.framework */,
-				AA7DF088148B911E00DD0E05 /* NimbusNetworkImageFramework.framework */,
-				AA7DF0A3148B982F00DD0E05 /* NimbusAttributedLabelFramework.framework */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -1796,56 +1705,6 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		AA7DF046148B8C7F00DD0E05 /* Headers */ = {
-			isa = PBXHeadersBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				AA7DF06A148B8E3B00DD0E05 /* NIBlocks.h in Headers */,
-				AA7DF06B148B8E3B00DD0E05 /* NICommonMetrics.h in Headers */,
-				AA7DF06C148B8E3B00DD0E05 /* NIDataStructures.h in Headers */,
-				AA7DF06D148B8E3B00DD0E05 /* NIDebuggingTools.h in Headers */,
-				AA7DF06E148B8E3B00DD0E05 /* NIDeviceOrientation.h in Headers */,
-				AA7DF06F148B8E3B00DD0E05 /* NIError.h in Headers */,
-				AA7DF070148B8E3B00DD0E05 /* NIFoundationMethods.h in Headers */,
-				AA7DF071148B8E3B00DD0E05 /* NIInMemoryCache.h in Headers */,
-				AA7DF072148B8E3B00DD0E05 /* NimbusCore+Additions.h in Headers */,
-				AA7DF073148B8E3B00DD0E05 /* NimbusCore.h in Headers */,
-				AA7DF075148B8E3B00DD0E05 /* NINetworkActivity.h in Headers */,
-				AA7DF076148B8E3B00DD0E05 /* NINonEmptyCollectionTesting.h in Headers */,
-				AA7DF077148B8E3B00DD0E05 /* NINonRetainingCollections.h in Headers */,
-				AA7DF078148B8E3B00DD0E05 /* NIOperations.h in Headers */,
-				AA7DF079148B8E3B00DD0E05 /* NIPaths.h in Headers */,
-				AA7DF07A148B8E3B00DD0E05 /* NIPreprocessorMacros.h in Headers */,
-				AA7DF07B148B8E3B00DD0E05 /* NIRuntimeClassModifications.h in Headers */,
-				AA7DF07C148B8E3B00DD0E05 /* NISDKAvailability.h in Headers */,
-				AA7DF07D148B8E3B00DD0E05 /* NIState.h in Headers */,
-				AA7DF07F148B8E3B00DD0E05 /* NSData+NimbusCore.h in Headers */,
-				AA7DF07E148B8E3B00DD0E05 /* NIViewRecycler.h in Headers */,
-				AA7DF074148B8E3B00DD0E05 /* NINavigationAppearance.h in Headers */,
-				AA7DF080148B8E3B00DD0E05 /* NSString+NimbusCore.h in Headers */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		AA7DF084148B911E00DD0E05 /* Headers */ = {
-			isa = PBXHeadersBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				AA7DF096148B91AE00DD0E05 /* NINetworkImageRequest.h in Headers */,
-				AA7DF097148B91AE00DD0E05 /* NimbusNetworkImage.h in Headers */,
-				AA7DF098148B91AE00DD0E05 /* NINetworkImageView.h in Headers */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		AA7DF09F148B982F00DD0E05 /* Headers */ = {
-			isa = PBXHeadersBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				AA7DF0B3148B98C000DD0E05 /* NimbusAttributedLabel.h in Headers */,
-				AA7DF0B5148B98C000DD0E05 /* NSAttributedString+NimbusAttributedLabel.h in Headers */,
-				AA7DF0B4148B98C000DD0E05 /* NIAttributedLabel.h in Headers */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		DB3A230713FD4B8E00614220 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
@@ -2246,66 +2105,6 @@
 			productReference = 66C3A6AE143D61140048542F /* NimbusCssTests.octest */;
 			productType = "com.apple.product-type.bundle";
 		};
-		AA7DF049148B8C7F00DD0E05 /* NimbusCoreFramework */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = AA7DF055148B8C8000DD0E05 /* Build configuration list for PBXNativeTarget "NimbusCoreFramework" */;
-			buildPhases = (
-				AA7DF043148B8C7F00DD0E05 /* ShellScript */,
-				AA7DF044148B8C7F00DD0E05 /* Sources */,
-				AA7DF045148B8C7F00DD0E05 /* Frameworks */,
-				AA7DF046148B8C7F00DD0E05 /* Headers */,
-				AA7DF047148B8C7F00DD0E05 /* Resources */,
-				AA7DF048148B8C7F00DD0E05 /* ShellScript */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-			);
-			name = NimbusCoreFramework;
-			productName = NimbusCoreFramework;
-			productReference = AA7DF04A148B8C7F00DD0E05 /* NimbusCoreFramework.framework */;
-			productType = "com.apple.product-type.framework.static";
-		};
-		AA7DF087148B911E00DD0E05 /* NimbusNetworkImageFramework */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = AA7DF091148B911F00DD0E05 /* Build configuration list for PBXNativeTarget "NimbusNetworkImageFramework" */;
-			buildPhases = (
-				AA7DF081148B911E00DD0E05 /* ShellScript */,
-				AA7DF082148B911E00DD0E05 /* Sources */,
-				AA7DF083148B911E00DD0E05 /* Frameworks */,
-				AA7DF084148B911E00DD0E05 /* Headers */,
-				AA7DF085148B911E00DD0E05 /* Resources */,
-				AA7DF086148B911E00DD0E05 /* ShellScript */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-			);
-			name = NimbusNetworkImageFramework;
-			productName = NimbusNetworkImageFramework;
-			productReference = AA7DF088148B911E00DD0E05 /* NimbusNetworkImageFramework.framework */;
-			productType = "com.apple.product-type.framework.static";
-		};
-		AA7DF0A2148B982F00DD0E05 /* NimbusAttributedLabelFramework */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = AA7DF0AE148B983000DD0E05 /* Build configuration list for PBXNativeTarget "NimbusAttributedLabelFramework" */;
-			buildPhases = (
-				AA7DF09C148B982F00DD0E05 /* ShellScript */,
-				AA7DF09D148B982F00DD0E05 /* Sources */,
-				AA7DF09E148B982F00DD0E05 /* Frameworks */,
-				AA7DF09F148B982F00DD0E05 /* Headers */,
-				AA7DF0A0148B982F00DD0E05 /* Resources */,
-				AA7DF0A1148B982F00DD0E05 /* ShellScript */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-			);
-			name = NimbusAttributedLabelFramework;
-			productName = NimbusAttributedLabelFramework;
-			productReference = AA7DF0A3148B982F00DD0E05 /* NimbusAttributedLabelFramework.framework */;
-			productType = "com.apple.product-type.framework.static";
-		};
 		DB3A230813FD4B8E00614220 /* NimbusAttributedLabel */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = DB3A232C13FD4B8F00614220 /* Build configuration list for PBXNativeTarget "NimbusAttributedLabel" */;
@@ -2400,10 +2199,8 @@
 			projectRoot = "";
 			targets = (
 				DB3A230813FD4B8E00614220 /* NimbusAttributedLabel */,
-				AA7DF0A2148B982F00DD0E05 /* NimbusAttributedLabelFramework */,
 				DB3A231513FD4B8E00614220 /* NimbusAttributedLabelTests */,
 				66A03C0813E6E85E00B514F3 /* NimbusCore */,
-				AA7DF049148B8C7F00DD0E05 /* NimbusCoreFramework */,
 				66A03C1813E6E85E00B514F3 /* NimbusCoreTests */,
 				66C3A6A0143D61130048542F /* NimbusCss */,
 				66C3A6AD143D61140048542F /* NimbusCssTests */,
@@ -2413,7 +2210,6 @@
 				66A03CBE13E6F0ED00B514F3 /* NimbusLauncher */,
 				66A03CCB13E6F0EE00B514F3 /* NimbusLauncherTests */,
 				66A03D2613E6F97500B514F3 /* NimbusNetworkImage */,
-				AA7DF087148B911E00DD0E05 /* NimbusNetworkImageFramework */,
 				66A03D3313E6F97500B514F3 /* NimbusNetworkImageTests */,
 				6675722813E765BF0076F555 /* NimbusOverview */,
 				6675723513E765BF0076F555 /* NimbusOverviewTests */,
@@ -2510,30 +2306,6 @@
 				66832CFF143E3294003E413C /* UILabel.css in Resources */,
 				66FCC634144FB42E0029F1A6 /* includee.css in Resources */,
 				66FCC635144FB42E0029F1A6 /* includer.css in Resources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		AA7DF047148B8C7F00DD0E05 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				AA7DF051148B8C7F00DD0E05 /* InfoPlist.strings in Resources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		AA7DF085148B911E00DD0E05 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				AA7DF08F148B911F00DD0E05 /* InfoPlist.strings in Resources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		AA7DF0A0148B982F00DD0E05 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				AA7DF0AA148B983000DD0E05 /* InfoPlist.strings in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -2685,84 +2457,6 @@
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
 			shellScript = "# Run the unit tests in this test bundle.\n\"${SYSTEM_DEVELOPER_DIR}/Tools/RunUnitTests\"\n";
-		};
-		AA7DF043148B8C7F00DD0E05 /* ShellScript */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "set -e\n\nset +u\nif [[ $UFW_MASTER_SCRIPT_RUNNING ]]\nthen\n    # Nothing for the slave script to do\n    exit 0\nfi\nset -u\n\nif [[ \"$SDK_NAME\" =~ ([A-Za-z]+) ]]\nthen\n    UFW_SDK_PLATFORM=${BASH_REMATCH[1]}\nelse\n    echo \"Could not find platform name from SDK_NAME: $SDK_NAME\"\n    exit 1\nfi\n\nif [[ \"$SDK_NAME\" =~ ([0-9]+.*$) ]]\nthen\n\tUFW_SDK_VERSION=${BASH_REMATCH[1]}\nelse\n    echo \"Could not find sdk version  from SDK_NAME: $SDK_NAME\"\n    exit 1\nfi\n\nif [[ \"$UFW_SDK_PLATFORM\" = \"iphoneos\" ]]\nthen\n    UFW_OTHER_PLATFORM=iphonesimulator\nelse\n    UFW_OTHER_PLATFORM=iphoneos\nfi\n\nif [[ \"$BUILT_PRODUCTS_DIR\" =~ (.*)$UFW_SDK_PLATFORM$ ]]\nthen\n    UFW_OTHER_BUILT_PRODUCTS_DIR=\"${BASH_REMATCH[1]}${UFW_OTHER_PLATFORM}\"\nelse\n    echo \"Could not find $UFW_SDK_PLATFORM in $BUILT_PRODUCTS_DIR\"\n    exit 1\nfi\n\nONLY_ACTIVE_PLATFORM=${ONLY_ACTIVE_PLATFORM:-$ONLY_ACTIVE_ARCH}\n\n# Short-circuit if all binaries are up to date\n\nif [[ -f \"${BUILT_PRODUCTS_DIR}/${EXECUTABLE_PATH}\" ]] && \\\n   [[ -f \"${BUILT_PRODUCTS_DIR}/${PRODUCT_NAME}.embeddedframework/${EXECUTABLE_PATH}\" ]] && \\\n   [[ ! \"${BUILT_PRODUCTS_DIR}/${EXECUTABLE_PATH}\" -nt \"${BUILT_PRODUCTS_DIR}/${PRODUCT_NAME}.embeddedframework/${EXECUTABLE_PATH}\" ]] && \\\n  ([[ \"${ONLY_ACTIVE_PLATFORM}\" == \"YES\" ]] || \\\n    ([[ -f \"${UFW_OTHER_BUILT_PRODUCTS_DIR}/${EXECUTABLE_PATH}\" ]] && \\\n     [[ -f \"${UFW_OTHER_BUILT_PRODUCTS_DIR}/${PRODUCT_NAME}.embeddedframework/${EXECUTABLE_PATH}\" ]] && \\\n     [[ ! \"${UFW_OTHER_BUILT_PRODUCTS_DIR}/${EXECUTABLE_PATH}\" -nt \"${UFW_OTHER_BUILT_PRODUCTS_DIR}/${PRODUCT_NAME}.embeddedframework/${EXECUTABLE_PATH}\" ]]\n    )\n  )\nthen\n    exit 0\nfi\n\n\n# Clean other platform if needed\n\nif [[ ! -f \"${BUILT_PRODUCTS_DIR}/${EXECUTABLE_PATH}\" ]] && [[ \"${ONLY_ACTIVE_PLATFORM}\" != \"YES\" ]]\nthen\n\techo \"Platform \\\"$UFW_SDK_PLATFORM\\\" was cleaned recently. Cleaning \\\"$UFW_OTHER_PLATFORM\\\" as well\"\n\techo xcodebuild -project \"${PROJECT_FILE_PATH}\" -target \"${TARGET_NAME}\" -configuration \"${CONFIGURATION}\" -sdk ${UFW_OTHER_PLATFORM}${UFW_SDK_VERSION} BUILD_DIR=\"${BUILD_DIR}\" CONFIGURATION_TEMP_DIR=\"${PROJECT_TEMP_DIR}/${CONFIGURATION}-${UFW_OTHER_PLATFORM}\" clean\n\txcodebuild -project \"${PROJECT_FILE_PATH}\" -target \"${TARGET_NAME}\" -configuration \"${CONFIGURATION}\" -sdk ${UFW_OTHER_PLATFORM}${UFW_SDK_VERSION} BUILD_DIR=\"${BUILD_DIR}\" CONFIGURATION_TEMP_DIR=\"${PROJECT_TEMP_DIR}/${CONFIGURATION}-${UFW_OTHER_PLATFORM}\" clean\nfi\n\n\n# Make sure we are building from fresh binaries\n\nrm -rf \"${BUILT_PRODUCTS_DIR}/${EXECUTABLE_PATH}\"\nrm -rf \"${BUILT_PRODUCTS_DIR}/${PRODUCT_NAME}.embeddedframework\"\n\nif [[ \"${ONLY_ACTIVE_PLATFORM}\" != \"YES\" ]]\nthen\n    rm -rf \"${UFW_OTHER_BUILT_PRODUCTS_DIR}/${EXECUTABLE_PATH}\"\n    rm -rf \"${UFW_OTHER_BUILT_PRODUCTS_DIR}/${PRODUCT_NAME}.embeddedframework\"\nfi\n\npwd\ncd ..\necho rm -Rf \"./frameworks/${PRODUCT_NAME}.embeddedframework\"\nrm -Rf \"./frameworks/${PRODUCT_NAME}.embeddedframework\"\necho rm -Rf \"./frameworks/${PRODUCT_NAME}.framework\"\nrm -Rf \"./frameworks/${PRODUCT_NAME}.framework\"\n";
-		};
-		AA7DF048148B8C7F00DD0E05 /* ShellScript */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "set -e\n\nset +u\nif [[ $UFW_MASTER_SCRIPT_RUNNING ]]\nthen\n    # Nothing for the slave script to do\n    exit 0\nfi\nset -u\nexport UFW_MASTER_SCRIPT_RUNNING=1\n\n\n# Functions\n\n## List files in the specified directory, storing to the specified array.\n#\n# @param $1 The path to list\n# @param $2 The name of the array to fill\n#\n##\nlist_files ()\n{\n    filelist=$(ls \"$1\")\n    while read line\n    do\n        eval \"$2[\\${#$2[*]}]=\\\"\\$line\\\"\"\n    done <<< \"$filelist\"\n}\n\n\n# Sanity check\n\nif [[ ! -f \"${BUILT_PRODUCTS_DIR}/${EXECUTABLE_PATH}\" ]]\nthen\n    echo \"Framework target \\\"${TARGET_NAME}\\\" had no source files to build from. Make sure your source files have the correct target membership\"\n    exit 1\nfi\n\n\n# Gather information\n\nif [[ \"$SDK_NAME\" =~ ([A-Za-z]+) ]]\nthen\n    UFW_SDK_PLATFORM=${BASH_REMATCH[1]}\nelse\n    echo \"Could not find platform name from SDK_NAME: $SDK_NAME\"\n    exit 1\nfi\n\nif [[ \"$SDK_NAME\" =~ ([0-9]+.*$) ]]\nthen\n    UFW_SDK_VERSION=${BASH_REMATCH[1]}\nelse\n    echo \"Could not find sdk version from SDK_NAME: $SDK_NAME\"\n    exit 1\nfi\n\nif [[ \"$UFW_SDK_PLATFORM\" = \"iphoneos\" ]]\nthen\n    UFW_OTHER_PLATFORM=iphonesimulator\nelse\n    UFW_OTHER_PLATFORM=iphoneos\nfi\n\nif [[ \"$BUILT_PRODUCTS_DIR\" =~ (.*)$UFW_SDK_PLATFORM$ ]]\nthen\n    UFW_OTHER_BUILT_PRODUCTS_DIR=\"${BASH_REMATCH[1]}${UFW_OTHER_PLATFORM}\"\nelse\n    echo \"Could not find $UFW_SDK_PLATFORM in $BUILT_PRODUCTS_DIR\"\n    exit 1\nfi\n\nONLY_ACTIVE_PLATFORM=${ONLY_ACTIVE_PLATFORM:-$ONLY_ACTIVE_ARCH}\n\n# Short-circuit if all binaries are up to date.\n# We already checked the other platform in the prerun script.\n\nif [[ -f \"${BUILT_PRODUCTS_DIR}/${EXECUTABLE_PATH}\" ]] && [[ -f \"${BUILT_PRODUCTS_DIR}/${PRODUCT_NAME}.embeddedframework/${EXECUTABLE_PATH}\" ]] && [[ ! \"${BUILT_PRODUCTS_DIR}/${EXECUTABLE_PATH}\" -nt \"${BUILT_PRODUCTS_DIR}/${PRODUCT_NAME}.embeddedframework/${EXECUTABLE_PATH}\" ]]\nthen\n    exit 0\nfi\n\nif [ \"${ONLY_ACTIVE_PLATFORM}\" == \"YES\" ]\nthen\n    echo \"ONLY_ACTIVE_PLATFORM=${ONLY_ACTIVE_PLATFORM}: Skipping other platform build\"\nelse\n    # Make sure the other platform gets built\n    \n    echo \"Build other platform\"\n    \n    echo xcodebuild -project \"${PROJECT_FILE_PATH}\" -target \"${TARGET_NAME}\" -configuration \"${CONFIGURATION}\" -sdk ${UFW_OTHER_PLATFORM}${UFW_SDK_VERSION} BUILD_DIR=\"${BUILD_DIR}\" CONFIGURATION_TEMP_DIR=\"${PROJECT_TEMP_DIR}/${CONFIGURATION}-${UFW_OTHER_PLATFORM}\" $ACTION\n    xcodebuild -project \"${PROJECT_FILE_PATH}\" -target \"${TARGET_NAME}\" -configuration \"${CONFIGURATION}\" -sdk ${UFW_OTHER_PLATFORM}${UFW_SDK_VERSION} BUILD_DIR=\"${BUILD_DIR}\" CONFIGURATION_TEMP_DIR=\"${PROJECT_TEMP_DIR}/${CONFIGURATION}-${UFW_OTHER_PLATFORM}\" $ACTION\n    \n    \n    # Build the fat static library binary\n    \n    echo \"Create universal static library\"\n    \n    echo \"$PLATFORM_DEVELOPER_BIN_DIR/libtool\" -static \"${BUILT_PRODUCTS_DIR}/${EXECUTABLE_PATH}\" \"${UFW_OTHER_BUILT_PRODUCTS_DIR}/${EXECUTABLE_PATH}\" -o \"${BUILT_PRODUCTS_DIR}/${EXECUTABLE_PATH}.temp\"\n    \"$PLATFORM_DEVELOPER_BIN_DIR/libtool\" -static \"${BUILT_PRODUCTS_DIR}/${EXECUTABLE_PATH}\" \"${UFW_OTHER_BUILT_PRODUCTS_DIR}/${EXECUTABLE_PATH}\" -o \"${BUILT_PRODUCTS_DIR}/${EXECUTABLE_PATH}.temp\"\n    \n    echo mv \"${BUILT_PRODUCTS_DIR}/${EXECUTABLE_PATH}.temp\" \"${BUILT_PRODUCTS_DIR}/${EXECUTABLE_PATH}\"\n    mv \"${BUILT_PRODUCTS_DIR}/${EXECUTABLE_PATH}.temp\" \"${BUILT_PRODUCTS_DIR}/${EXECUTABLE_PATH}\"\nfi\n\n# Build embedded framework structure\n\necho \"Build Embedded Framework\"\n\necho rm -rf \"${BUILT_PRODUCTS_DIR}/${PRODUCT_NAME}.embeddedframework\"\nrm -rf \"${BUILT_PRODUCTS_DIR}/${PRODUCT_NAME}.embeddedframework\"\necho mkdir -p \"${BUILT_PRODUCTS_DIR}/${PRODUCT_NAME}.embeddedframework/Resources\"\nmkdir -p \"${BUILT_PRODUCTS_DIR}/${PRODUCT_NAME}.embeddedframework/Resources\"\necho cp -a \"${BUILT_PRODUCTS_DIR}/${WRAPPER_NAME}\" \"${BUILT_PRODUCTS_DIR}/${PRODUCT_NAME}.embeddedframework/\"\ncp -a \"${BUILT_PRODUCTS_DIR}/${WRAPPER_NAME}\" \"${BUILT_PRODUCTS_DIR}/${PRODUCT_NAME}.embeddedframework/\"\n\ndeclare -a UFW_FILE_LIST\nlist_files \"${BUILT_PRODUCTS_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}\" UFW_FILE_LIST\nfor filename in \"${UFW_FILE_LIST[@]}\"\ndo\n    if [[ \"${filename}\" != \"Info.plist\" ]] && [[ ! \"${filename}\" =~ .*\\.lproj$ ]]\n    then\n        echo ln -sf \"../${WRAPPER_NAME}/Resources/${filename}\" \"${BUILT_PRODUCTS_DIR}/${PRODUCT_NAME}.embeddedframework/Resources/${filename}\"\n        ln -sf \"../${WRAPPER_NAME}/Resources/${filename}\" \"${BUILT_PRODUCTS_DIR}/${PRODUCT_NAME}.embeddedframework/Resources/${filename}\"\n    fi\ndone\n\n\nif [ \"${ONLY_ACTIVE_PLATFORM}\" != \"YES\" ]\nthen\n    # Replace other platform's framework with a copy of this one (so that both have the same universal binary)\n    \n    echo \"Copy from $UFW_SDK_PLATFORM to $UFW_OTHER_PLATFORM\"\n    \n    echo rm -rf \"${BUILD_DIR}/${CONFIGURATION}-${UFW_OTHER_PLATFORM}\"\n    rm -rf \"${BUILD_DIR}/${CONFIGURATION}-${UFW_OTHER_PLATFORM}\"\n    echo cp -a \"${BUILD_DIR}/${CONFIGURATION}-${UFW_SDK_PLATFORM}\" \"${BUILD_DIR}/${CONFIGURATION}-${UFW_OTHER_PLATFORM}\"\n    cp -a \"${BUILD_DIR}/${CONFIGURATION}-${UFW_SDK_PLATFORM}\" \"${BUILD_DIR}/${CONFIGURATION}-${UFW_OTHER_PLATFORM}\"\nfi\n\necho \"Copy frameworks to the git repository\"\ncd ..\necho cp -a \"${BUILT_PRODUCTS_DIR}/${PRODUCT_NAME}.embeddedframework/\" \"./frameworks/\"\ncp -a \"${BUILT_PRODUCTS_DIR}/${PRODUCT_NAME}.embeddedframework/\" \"./frameworks/${PRODUCT_NAME}.embeddedframework\"\n\necho cp -a \"${BUILT_PRODUCTS_DIR}/${PRODUCT_NAME}.framework/\" \"./frameworks/\"\ncp -a \"${BUILT_PRODUCTS_DIR}/${PRODUCT_NAME}.framework/\" \"./frameworks/${PRODUCT_NAME}.framework\"\n";
-		};
-		AA7DF081148B911E00DD0E05 /* ShellScript */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "set -e\n\nset +u\nif [[ $UFW_MASTER_SCRIPT_RUNNING ]]\nthen\n    # Nothing for the slave script to do\n    exit 0\nfi\nset -u\n\nif [[ \"$SDK_NAME\" =~ ([A-Za-z]+) ]]\nthen\n    UFW_SDK_PLATFORM=${BASH_REMATCH[1]}\nelse\n    echo \"Could not find platform name from SDK_NAME: $SDK_NAME\"\n    exit 1\nfi\n\nif [[ \"$SDK_NAME\" =~ ([0-9]+.*$) ]]\nthen\n\tUFW_SDK_VERSION=${BASH_REMATCH[1]}\nelse\n    echo \"Could not find sdk version  from SDK_NAME: $SDK_NAME\"\n    exit 1\nfi\n\nif [[ \"$UFW_SDK_PLATFORM\" = \"iphoneos\" ]]\nthen\n    UFW_OTHER_PLATFORM=iphonesimulator\nelse\n    UFW_OTHER_PLATFORM=iphoneos\nfi\n\nif [[ \"$BUILT_PRODUCTS_DIR\" =~ (.*)$UFW_SDK_PLATFORM$ ]]\nthen\n    UFW_OTHER_BUILT_PRODUCTS_DIR=\"${BASH_REMATCH[1]}${UFW_OTHER_PLATFORM}\"\nelse\n    echo \"Could not find $UFW_SDK_PLATFORM in $BUILT_PRODUCTS_DIR\"\n    exit 1\nfi\n\nONLY_ACTIVE_PLATFORM=${ONLY_ACTIVE_PLATFORM:-$ONLY_ACTIVE_ARCH}\n\n# Short-circuit if all binaries are up to date\n\nif [[ -f \"${BUILT_PRODUCTS_DIR}/${EXECUTABLE_PATH}\" ]] && \\\n   [[ -f \"${BUILT_PRODUCTS_DIR}/${PRODUCT_NAME}.embeddedframework/${EXECUTABLE_PATH}\" ]] && \\\n   [[ ! \"${BUILT_PRODUCTS_DIR}/${EXECUTABLE_PATH}\" -nt \"${BUILT_PRODUCTS_DIR}/${PRODUCT_NAME}.embeddedframework/${EXECUTABLE_PATH}\" ]] && \\\n  ([[ \"${ONLY_ACTIVE_PLATFORM}\" == \"YES\" ]] || \\\n    ([[ -f \"${UFW_OTHER_BUILT_PRODUCTS_DIR}/${EXECUTABLE_PATH}\" ]] && \\\n     [[ -f \"${UFW_OTHER_BUILT_PRODUCTS_DIR}/${PRODUCT_NAME}.embeddedframework/${EXECUTABLE_PATH}\" ]] && \\\n     [[ ! \"${UFW_OTHER_BUILT_PRODUCTS_DIR}/${EXECUTABLE_PATH}\" -nt \"${UFW_OTHER_BUILT_PRODUCTS_DIR}/${PRODUCT_NAME}.embeddedframework/${EXECUTABLE_PATH}\" ]]\n    )\n  )\nthen\n    exit 0\nfi\n\n\n# Clean other platform if needed\n\nif [[ ! -f \"${BUILT_PRODUCTS_DIR}/${EXECUTABLE_PATH}\" ]] && [[ \"${ONLY_ACTIVE_PLATFORM}\" != \"YES\" ]]\nthen\n\techo \"Platform \\\"$UFW_SDK_PLATFORM\\\" was cleaned recently. Cleaning \\\"$UFW_OTHER_PLATFORM\\\" as well\"\n\techo xcodebuild -project \"${PROJECT_FILE_PATH}\" -target \"${TARGET_NAME}\" -configuration \"${CONFIGURATION}\" -sdk ${UFW_OTHER_PLATFORM}${UFW_SDK_VERSION} BUILD_DIR=\"${BUILD_DIR}\" CONFIGURATION_TEMP_DIR=\"${PROJECT_TEMP_DIR}/${CONFIGURATION}-${UFW_OTHER_PLATFORM}\" clean\n\txcodebuild -project \"${PROJECT_FILE_PATH}\" -target \"${TARGET_NAME}\" -configuration \"${CONFIGURATION}\" -sdk ${UFW_OTHER_PLATFORM}${UFW_SDK_VERSION} BUILD_DIR=\"${BUILD_DIR}\" CONFIGURATION_TEMP_DIR=\"${PROJECT_TEMP_DIR}/${CONFIGURATION}-${UFW_OTHER_PLATFORM}\" clean\nfi\n\n\n# Make sure we are building from fresh binaries\n\nrm -rf \"${BUILT_PRODUCTS_DIR}/${EXECUTABLE_PATH}\"\nrm -rf \"${BUILT_PRODUCTS_DIR}/${PRODUCT_NAME}.embeddedframework\"\n\nif [[ \"${ONLY_ACTIVE_PLATFORM}\" != \"YES\" ]]\nthen\n    rm -rf \"${UFW_OTHER_BUILT_PRODUCTS_DIR}/${EXECUTABLE_PATH}\"\n    rm -rf \"${UFW_OTHER_BUILT_PRODUCTS_DIR}/${PRODUCT_NAME}.embeddedframework\"\nfi\n\npwd\ncd ..\necho rm -Rf \"./frameworks/${PRODUCT_NAME}.embeddedframework\"\nrm -Rf \"./frameworks/${PRODUCT_NAME}.embeddedframework\"\necho rm -Rf \"./frameworks/${PRODUCT_NAME}.framework\"\nrm -Rf \"./frameworks/${PRODUCT_NAME}.framework\"\n\n";
-		};
-		AA7DF086148B911E00DD0E05 /* ShellScript */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "set -e\n\nset +u\nif [[ $UFW_MASTER_SCRIPT_RUNNING ]]\nthen\n    # Nothing for the slave script to do\n    exit 0\nfi\nset -u\nexport UFW_MASTER_SCRIPT_RUNNING=1\n\n\n# Functions\n\n## List files in the specified directory, storing to the specified array.\n#\n# @param $1 The path to list\n# @param $2 The name of the array to fill\n#\n##\nlist_files ()\n{\n    filelist=$(ls \"$1\")\n    while read line\n    do\n        eval \"$2[\\${#$2[*]}]=\\\"\\$line\\\"\"\n    done <<< \"$filelist\"\n}\n\n\n# Sanity check\n\nif [[ ! -f \"${BUILT_PRODUCTS_DIR}/${EXECUTABLE_PATH}\" ]]\nthen\n    echo \"Framework target \\\"${TARGET_NAME}\\\" had no source files to build from. Make sure your source files have the correct target membership\"\n    exit 1\nfi\n\n\n# Gather information\n\nif [[ \"$SDK_NAME\" =~ ([A-Za-z]+) ]]\nthen\n    UFW_SDK_PLATFORM=${BASH_REMATCH[1]}\nelse\n    echo \"Could not find platform name from SDK_NAME: $SDK_NAME\"\n    exit 1\nfi\n\nif [[ \"$SDK_NAME\" =~ ([0-9]+.*$) ]]\nthen\n    UFW_SDK_VERSION=${BASH_REMATCH[1]}\nelse\n    echo \"Could not find sdk version from SDK_NAME: $SDK_NAME\"\n    exit 1\nfi\n\nif [[ \"$UFW_SDK_PLATFORM\" = \"iphoneos\" ]]\nthen\n    UFW_OTHER_PLATFORM=iphonesimulator\nelse\n    UFW_OTHER_PLATFORM=iphoneos\nfi\n\nif [[ \"$BUILT_PRODUCTS_DIR\" =~ (.*)$UFW_SDK_PLATFORM$ ]]\nthen\n    UFW_OTHER_BUILT_PRODUCTS_DIR=\"${BASH_REMATCH[1]}${UFW_OTHER_PLATFORM}\"\nelse\n    echo \"Could not find $UFW_SDK_PLATFORM in $BUILT_PRODUCTS_DIR\"\n    exit 1\nfi\n\nONLY_ACTIVE_PLATFORM=${ONLY_ACTIVE_PLATFORM:-$ONLY_ACTIVE_ARCH}\n\n# Short-circuit if all binaries are up to date.\n# We already checked the other platform in the prerun script.\n\nif [[ -f \"${BUILT_PRODUCTS_DIR}/${EXECUTABLE_PATH}\" ]] && [[ -f \"${BUILT_PRODUCTS_DIR}/${PRODUCT_NAME}.embeddedframework/${EXECUTABLE_PATH}\" ]] && [[ ! \"${BUILT_PRODUCTS_DIR}/${EXECUTABLE_PATH}\" -nt \"${BUILT_PRODUCTS_DIR}/${PRODUCT_NAME}.embeddedframework/${EXECUTABLE_PATH}\" ]]\nthen\n    exit 0\nfi\n\nif [ \"${ONLY_ACTIVE_PLATFORM}\" == \"YES\" ]\nthen\n    echo \"ONLY_ACTIVE_PLATFORM=${ONLY_ACTIVE_PLATFORM}: Skipping other platform build\"\nelse\n    # Make sure the other platform gets built\n    \n    echo \"Build other platform\"\n    \n    echo xcodebuild -project \"${PROJECT_FILE_PATH}\" -target \"${TARGET_NAME}\" -configuration \"${CONFIGURATION}\" -sdk ${UFW_OTHER_PLATFORM}${UFW_SDK_VERSION} BUILD_DIR=\"${BUILD_DIR}\" CONFIGURATION_TEMP_DIR=\"${PROJECT_TEMP_DIR}/${CONFIGURATION}-${UFW_OTHER_PLATFORM}\" $ACTION\n    xcodebuild -project \"${PROJECT_FILE_PATH}\" -target \"${TARGET_NAME}\" -configuration \"${CONFIGURATION}\" -sdk ${UFW_OTHER_PLATFORM}${UFW_SDK_VERSION} BUILD_DIR=\"${BUILD_DIR}\" CONFIGURATION_TEMP_DIR=\"${PROJECT_TEMP_DIR}/${CONFIGURATION}-${UFW_OTHER_PLATFORM}\" $ACTION\n    \n    \n    # Build the fat static library binary\n    \n    echo \"Create universal static library\"\n    \n    echo \"$PLATFORM_DEVELOPER_BIN_DIR/libtool\" -static \"${BUILT_PRODUCTS_DIR}/${EXECUTABLE_PATH}\" \"${UFW_OTHER_BUILT_PRODUCTS_DIR}/${EXECUTABLE_PATH}\" -o \"${BUILT_PRODUCTS_DIR}/${EXECUTABLE_PATH}.temp\"\n    \"$PLATFORM_DEVELOPER_BIN_DIR/libtool\" -static \"${BUILT_PRODUCTS_DIR}/${EXECUTABLE_PATH}\" \"${UFW_OTHER_BUILT_PRODUCTS_DIR}/${EXECUTABLE_PATH}\" -o \"${BUILT_PRODUCTS_DIR}/${EXECUTABLE_PATH}.temp\"\n    \n    echo mv \"${BUILT_PRODUCTS_DIR}/${EXECUTABLE_PATH}.temp\" \"${BUILT_PRODUCTS_DIR}/${EXECUTABLE_PATH}\"\n    mv \"${BUILT_PRODUCTS_DIR}/${EXECUTABLE_PATH}.temp\" \"${BUILT_PRODUCTS_DIR}/${EXECUTABLE_PATH}\"\nfi\n\n# Build embedded framework structure\n\necho \"Build Embedded Framework\"\n\necho rm -rf \"${BUILT_PRODUCTS_DIR}/${PRODUCT_NAME}.embeddedframework\"\nrm -rf \"${BUILT_PRODUCTS_DIR}/${PRODUCT_NAME}.embeddedframework\"\necho mkdir -p \"${BUILT_PRODUCTS_DIR}/${PRODUCT_NAME}.embeddedframework/Resources\"\nmkdir -p \"${BUILT_PRODUCTS_DIR}/${PRODUCT_NAME}.embeddedframework/Resources\"\necho cp -a \"${BUILT_PRODUCTS_DIR}/${WRAPPER_NAME}\" \"${BUILT_PRODUCTS_DIR}/${PRODUCT_NAME}.embeddedframework/\"\ncp -a \"${BUILT_PRODUCTS_DIR}/${WRAPPER_NAME}\" \"${BUILT_PRODUCTS_DIR}/${PRODUCT_NAME}.embeddedframework/\"\n\ndeclare -a UFW_FILE_LIST\nlist_files \"${BUILT_PRODUCTS_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}\" UFW_FILE_LIST\nfor filename in \"${UFW_FILE_LIST[@]}\"\ndo\n    if [[ \"${filename}\" != \"Info.plist\" ]] && [[ ! \"${filename}\" =~ .*\\.lproj$ ]]\n    then\n        echo ln -sf \"../${WRAPPER_NAME}/Resources/${filename}\" \"${BUILT_PRODUCTS_DIR}/${PRODUCT_NAME}.embeddedframework/Resources/${filename}\"\n        ln -sf \"../${WRAPPER_NAME}/Resources/${filename}\" \"${BUILT_PRODUCTS_DIR}/${PRODUCT_NAME}.embeddedframework/Resources/${filename}\"\n    fi\ndone\n\n\nif [ \"${ONLY_ACTIVE_PLATFORM}\" != \"YES\" ]\nthen\n    # Replace other platform's framework with a copy of this one (so that both have the same universal binary)\n    \n    echo \"Copy from $UFW_SDK_PLATFORM to $UFW_OTHER_PLATFORM\"\n    \n    echo rm -rf \"${BUILD_DIR}/${CONFIGURATION}-${UFW_OTHER_PLATFORM}\"\n    rm -rf \"${BUILD_DIR}/${CONFIGURATION}-${UFW_OTHER_PLATFORM}\"\n    echo cp -a \"${BUILD_DIR}/${CONFIGURATION}-${UFW_SDK_PLATFORM}\" \"${BUILD_DIR}/${CONFIGURATION}-${UFW_OTHER_PLATFORM}\"\n    cp -a \"${BUILD_DIR}/${CONFIGURATION}-${UFW_SDK_PLATFORM}\" \"${BUILD_DIR}/${CONFIGURATION}-${UFW_OTHER_PLATFORM}\"\nfi\n\necho \"Copy frameworks to the git repository\"\ncd ..\necho cp -a \"${BUILT_PRODUCTS_DIR}/${PRODUCT_NAME}.embeddedframework/\" \"./frameworks/\"\ncp -a \"${BUILT_PRODUCTS_DIR}/${PRODUCT_NAME}.embeddedframework/\" \"./frameworks/${PRODUCT_NAME}.embeddedframework\"\n\necho cp -a \"${BUILT_PRODUCTS_DIR}/${PRODUCT_NAME}.framework/\" \"./frameworks/\"\ncp -a \"${BUILT_PRODUCTS_DIR}/${PRODUCT_NAME}.framework/\" \"./frameworks/${PRODUCT_NAME}.framework\"\n";
-		};
-		AA7DF09C148B982F00DD0E05 /* ShellScript */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "set -e\n\nset +u\nif [[ $UFW_MASTER_SCRIPT_RUNNING ]]\nthen\n    # Nothing for the slave script to do\n    exit 0\nfi\nset -u\n\nif [[ \"$SDK_NAME\" =~ ([A-Za-z]+) ]]\nthen\n    UFW_SDK_PLATFORM=${BASH_REMATCH[1]}\nelse\n    echo \"Could not find platform name from SDK_NAME: $SDK_NAME\"\n    exit 1\nfi\n\nif [[ \"$SDK_NAME\" =~ ([0-9]+.*$) ]]\nthen\n\tUFW_SDK_VERSION=${BASH_REMATCH[1]}\nelse\n    echo \"Could not find sdk version  from SDK_NAME: $SDK_NAME\"\n    exit 1\nfi\n\nif [[ \"$UFW_SDK_PLATFORM\" = \"iphoneos\" ]]\nthen\n    UFW_OTHER_PLATFORM=iphonesimulator\nelse\n    UFW_OTHER_PLATFORM=iphoneos\nfi\n\nif [[ \"$BUILT_PRODUCTS_DIR\" =~ (.*)$UFW_SDK_PLATFORM$ ]]\nthen\n    UFW_OTHER_BUILT_PRODUCTS_DIR=\"${BASH_REMATCH[1]}${UFW_OTHER_PLATFORM}\"\nelse\n    echo \"Could not find $UFW_SDK_PLATFORM in $BUILT_PRODUCTS_DIR\"\n    exit 1\nfi\n\nONLY_ACTIVE_PLATFORM=${ONLY_ACTIVE_PLATFORM:-$ONLY_ACTIVE_ARCH}\n\n# Short-circuit if all binaries are up to date\n\nif [[ -f \"${BUILT_PRODUCTS_DIR}/${EXECUTABLE_PATH}\" ]] && \\\n   [[ -f \"${BUILT_PRODUCTS_DIR}/${PRODUCT_NAME}.embeddedframework/${EXECUTABLE_PATH}\" ]] && \\\n   [[ ! \"${BUILT_PRODUCTS_DIR}/${EXECUTABLE_PATH}\" -nt \"${BUILT_PRODUCTS_DIR}/${PRODUCT_NAME}.embeddedframework/${EXECUTABLE_PATH}\" ]] && \\\n  ([[ \"${ONLY_ACTIVE_PLATFORM}\" == \"YES\" ]] || \\\n    ([[ -f \"${UFW_OTHER_BUILT_PRODUCTS_DIR}/${EXECUTABLE_PATH}\" ]] && \\\n     [[ -f \"${UFW_OTHER_BUILT_PRODUCTS_DIR}/${PRODUCT_NAME}.embeddedframework/${EXECUTABLE_PATH}\" ]] && \\\n     [[ ! \"${UFW_OTHER_BUILT_PRODUCTS_DIR}/${EXECUTABLE_PATH}\" -nt \"${UFW_OTHER_BUILT_PRODUCTS_DIR}/${PRODUCT_NAME}.embeddedframework/${EXECUTABLE_PATH}\" ]]\n    )\n  )\nthen\n    exit 0\nfi\n\n\n# Clean other platform if needed\n\nif [[ ! -f \"${BUILT_PRODUCTS_DIR}/${EXECUTABLE_PATH}\" ]] && [[ \"${ONLY_ACTIVE_PLATFORM}\" != \"YES\" ]]\nthen\n\techo \"Platform \\\"$UFW_SDK_PLATFORM\\\" was cleaned recently. Cleaning \\\"$UFW_OTHER_PLATFORM\\\" as well\"\n\techo xcodebuild -project \"${PROJECT_FILE_PATH}\" -target \"${TARGET_NAME}\" -configuration \"${CONFIGURATION}\" -sdk ${UFW_OTHER_PLATFORM}${UFW_SDK_VERSION} BUILD_DIR=\"${BUILD_DIR}\" CONFIGURATION_TEMP_DIR=\"${PROJECT_TEMP_DIR}/${CONFIGURATION}-${UFW_OTHER_PLATFORM}\" clean\n\txcodebuild -project \"${PROJECT_FILE_PATH}\" -target \"${TARGET_NAME}\" -configuration \"${CONFIGURATION}\" -sdk ${UFW_OTHER_PLATFORM}${UFW_SDK_VERSION} BUILD_DIR=\"${BUILD_DIR}\" CONFIGURATION_TEMP_DIR=\"${PROJECT_TEMP_DIR}/${CONFIGURATION}-${UFW_OTHER_PLATFORM}\" clean\nfi\n\n\n# Make sure we are building from fresh binaries\n\nrm -rf \"${BUILT_PRODUCTS_DIR}/${EXECUTABLE_PATH}\"\nrm -rf \"${BUILT_PRODUCTS_DIR}/${PRODUCT_NAME}.embeddedframework\"\n\nif [[ \"${ONLY_ACTIVE_PLATFORM}\" != \"YES\" ]]\nthen\n    rm -rf \"${UFW_OTHER_BUILT_PRODUCTS_DIR}/${EXECUTABLE_PATH}\"\n    rm -rf \"${UFW_OTHER_BUILT_PRODUCTS_DIR}/${PRODUCT_NAME}.embeddedframework\"\nfi\n\npwd\ncd ..\necho rm -Rf \"./frameworks/${PRODUCT_NAME}.embeddedframework\"\nrm -Rf \"./frameworks/${PRODUCT_NAME}.embeddedframework\"\necho rm -Rf \"./frameworks/${PRODUCT_NAME}.framework\"\nrm -Rf \"./frameworks/${PRODUCT_NAME}.framework\"\n";
-		};
-		AA7DF0A1148B982F00DD0E05 /* ShellScript */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "set -e\n\nset +u\nif [[ $UFW_MASTER_SCRIPT_RUNNING ]]\nthen\n    # Nothing for the slave script to do\n    exit 0\nfi\nset -u\nexport UFW_MASTER_SCRIPT_RUNNING=1\n\n\n# Functions\n\n## List files in the specified directory, storing to the specified array.\n#\n# @param $1 The path to list\n# @param $2 The name of the array to fill\n#\n##\nlist_files ()\n{\n    filelist=$(ls \"$1\")\n    while read line\n    do\n        eval \"$2[\\${#$2[*]}]=\\\"\\$line\\\"\"\n    done <<< \"$filelist\"\n}\n\n\n# Sanity check\n\nif [[ ! -f \"${BUILT_PRODUCTS_DIR}/${EXECUTABLE_PATH}\" ]]\nthen\n    echo \"Framework target \\\"${TARGET_NAME}\\\" had no source files to build from. Make sure your source files have the correct target membership\"\n    exit 1\nfi\n\n\n# Gather information\n\nif [[ \"$SDK_NAME\" =~ ([A-Za-z]+) ]]\nthen\n    UFW_SDK_PLATFORM=${BASH_REMATCH[1]}\nelse\n    echo \"Could not find platform name from SDK_NAME: $SDK_NAME\"\n    exit 1\nfi\n\nif [[ \"$SDK_NAME\" =~ ([0-9]+.*$) ]]\nthen\n    UFW_SDK_VERSION=${BASH_REMATCH[1]}\nelse\n    echo \"Could not find sdk version from SDK_NAME: $SDK_NAME\"\n    exit 1\nfi\n\nif [[ \"$UFW_SDK_PLATFORM\" = \"iphoneos\" ]]\nthen\n    UFW_OTHER_PLATFORM=iphonesimulator\nelse\n    UFW_OTHER_PLATFORM=iphoneos\nfi\n\nif [[ \"$BUILT_PRODUCTS_DIR\" =~ (.*)$UFW_SDK_PLATFORM$ ]]\nthen\n    UFW_OTHER_BUILT_PRODUCTS_DIR=\"${BASH_REMATCH[1]}${UFW_OTHER_PLATFORM}\"\nelse\n    echo \"Could not find $UFW_SDK_PLATFORM in $BUILT_PRODUCTS_DIR\"\n    exit 1\nfi\n\nONLY_ACTIVE_PLATFORM=${ONLY_ACTIVE_PLATFORM:-$ONLY_ACTIVE_ARCH}\n\n# Short-circuit if all binaries are up to date.\n# We already checked the other platform in the prerun script.\n\nif [[ -f \"${BUILT_PRODUCTS_DIR}/${EXECUTABLE_PATH}\" ]] && [[ -f \"${BUILT_PRODUCTS_DIR}/${PRODUCT_NAME}.embeddedframework/${EXECUTABLE_PATH}\" ]] && [[ ! \"${BUILT_PRODUCTS_DIR}/${EXECUTABLE_PATH}\" -nt \"${BUILT_PRODUCTS_DIR}/${PRODUCT_NAME}.embeddedframework/${EXECUTABLE_PATH}\" ]]\nthen\n    exit 0\nfi\n\nif [ \"${ONLY_ACTIVE_PLATFORM}\" == \"YES\" ]\nthen\n    echo \"ONLY_ACTIVE_PLATFORM=${ONLY_ACTIVE_PLATFORM}: Skipping other platform build\"\nelse\n    # Make sure the other platform gets built\n    \n    echo \"Build other platform\"\n    \n    echo xcodebuild -project \"${PROJECT_FILE_PATH}\" -target \"${TARGET_NAME}\" -configuration \"${CONFIGURATION}\" -sdk ${UFW_OTHER_PLATFORM}${UFW_SDK_VERSION} BUILD_DIR=\"${BUILD_DIR}\" CONFIGURATION_TEMP_DIR=\"${PROJECT_TEMP_DIR}/${CONFIGURATION}-${UFW_OTHER_PLATFORM}\" $ACTION\n    xcodebuild -project \"${PROJECT_FILE_PATH}\" -target \"${TARGET_NAME}\" -configuration \"${CONFIGURATION}\" -sdk ${UFW_OTHER_PLATFORM}${UFW_SDK_VERSION} BUILD_DIR=\"${BUILD_DIR}\" CONFIGURATION_TEMP_DIR=\"${PROJECT_TEMP_DIR}/${CONFIGURATION}-${UFW_OTHER_PLATFORM}\" $ACTION\n    \n    \n    # Build the fat static library binary\n    \n    echo \"Create universal static library\"\n    \n    echo \"$PLATFORM_DEVELOPER_BIN_DIR/libtool\" -static \"${BUILT_PRODUCTS_DIR}/${EXECUTABLE_PATH}\" \"${UFW_OTHER_BUILT_PRODUCTS_DIR}/${EXECUTABLE_PATH}\" -o \"${BUILT_PRODUCTS_DIR}/${EXECUTABLE_PATH}.temp\"\n    \"$PLATFORM_DEVELOPER_BIN_DIR/libtool\" -static \"${BUILT_PRODUCTS_DIR}/${EXECUTABLE_PATH}\" \"${UFW_OTHER_BUILT_PRODUCTS_DIR}/${EXECUTABLE_PATH}\" -o \"${BUILT_PRODUCTS_DIR}/${EXECUTABLE_PATH}.temp\"\n    \n    echo mv \"${BUILT_PRODUCTS_DIR}/${EXECUTABLE_PATH}.temp\" \"${BUILT_PRODUCTS_DIR}/${EXECUTABLE_PATH}\"\n    mv \"${BUILT_PRODUCTS_DIR}/${EXECUTABLE_PATH}.temp\" \"${BUILT_PRODUCTS_DIR}/${EXECUTABLE_PATH}\"\nfi\n\n# Build embedded framework structure\n\necho \"Build Embedded Framework\"\n\necho rm -rf \"${BUILT_PRODUCTS_DIR}/${PRODUCT_NAME}.embeddedframework\"\nrm -rf \"${BUILT_PRODUCTS_DIR}/${PRODUCT_NAME}.embeddedframework\"\necho mkdir -p \"${BUILT_PRODUCTS_DIR}/${PRODUCT_NAME}.embeddedframework/Resources\"\nmkdir -p \"${BUILT_PRODUCTS_DIR}/${PRODUCT_NAME}.embeddedframework/Resources\"\necho cp -a \"${BUILT_PRODUCTS_DIR}/${WRAPPER_NAME}\" \"${BUILT_PRODUCTS_DIR}/${PRODUCT_NAME}.embeddedframework/\"\ncp -a \"${BUILT_PRODUCTS_DIR}/${WRAPPER_NAME}\" \"${BUILT_PRODUCTS_DIR}/${PRODUCT_NAME}.embeddedframework/\"\n\ndeclare -a UFW_FILE_LIST\nlist_files \"${BUILT_PRODUCTS_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}\" UFW_FILE_LIST\nfor filename in \"${UFW_FILE_LIST[@]}\"\ndo\n    if [[ \"${filename}\" != \"Info.plist\" ]] && [[ ! \"${filename}\" =~ .*\\.lproj$ ]]\n    then\n        echo ln -sf \"../${WRAPPER_NAME}/Resources/${filename}\" \"${BUILT_PRODUCTS_DIR}/${PRODUCT_NAME}.embeddedframework/Resources/${filename}\"\n        ln -sf \"../${WRAPPER_NAME}/Resources/${filename}\" \"${BUILT_PRODUCTS_DIR}/${PRODUCT_NAME}.embeddedframework/Resources/${filename}\"\n    fi\ndone\n\n\nif [ \"${ONLY_ACTIVE_PLATFORM}\" != \"YES\" ]\nthen\n    # Replace other platform's framework with a copy of this one (so that both have the same universal binary)\n    \n    echo \"Copy from $UFW_SDK_PLATFORM to $UFW_OTHER_PLATFORM\"\n    \n    echo rm -rf \"${BUILD_DIR}/${CONFIGURATION}-${UFW_OTHER_PLATFORM}\"\n    rm -rf \"${BUILD_DIR}/${CONFIGURATION}-${UFW_OTHER_PLATFORM}\"\n    echo cp -a \"${BUILD_DIR}/${CONFIGURATION}-${UFW_SDK_PLATFORM}\" \"${BUILD_DIR}/${CONFIGURATION}-${UFW_OTHER_PLATFORM}\"\n    cp -a \"${BUILD_DIR}/${CONFIGURATION}-${UFW_SDK_PLATFORM}\" \"${BUILD_DIR}/${CONFIGURATION}-${UFW_OTHER_PLATFORM}\"\nfi\n\necho \"Copy frameworks to the git repository\"\ncd ..\necho cp -a \"${BUILT_PRODUCTS_DIR}/${PRODUCT_NAME}.embeddedframework/\" \"./frameworks/\"\ncp -a \"${BUILT_PRODUCTS_DIR}/${PRODUCT_NAME}.embeddedframework/\" \"./frameworks/${PRODUCT_NAME}.embeddedframework\"\n\necho cp -a \"${BUILT_PRODUCTS_DIR}/${PRODUCT_NAME}.framework/\" \"./frameworks/\"\ncp -a \"${BUILT_PRODUCTS_DIR}/${PRODUCT_NAME}.framework/\" \"./frameworks/${PRODUCT_NAME}.framework\"\n";
 		};
 		DB3A231413FD4B8E00614220 /* ShellScript */ = {
 			isa = PBXShellScriptBuildPhase;
@@ -3003,50 +2697,6 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		AA7DF044148B8C7F00DD0E05 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				AA7DF057148B8DFA00DD0E05 /* NICommonMetrics.m in Sources */,
-				AA7DF058148B8DFA00DD0E05 /* NIDataStructures.m in Sources */,
-				AA7DF059148B8DFA00DD0E05 /* NIDebuggingTools.m in Sources */,
-				AA7DF05A148B8DFA00DD0E05 /* NIDeviceOrientation.m in Sources */,
-				AA7DF05B148B8DFA00DD0E05 /* NIError.m in Sources */,
-				AA7DF05C148B8DFA00DD0E05 /* NIFoundationMethods.m in Sources */,
-				AA7DF05D148B8DFA00DD0E05 /* NIInMemoryCache.m in Sources */,
-				AA7DF05E148B8DFA00DD0E05 /* NINavigationAppearance.m in Sources */,
-				AA7DF05F148B8DFA00DD0E05 /* NINetworkActivity.m in Sources */,
-				AA7DF060148B8DFA00DD0E05 /* NINonEmptyCollectionTesting.m in Sources */,
-				AA7DF061148B8DFA00DD0E05 /* NINonRetainingCollections.m in Sources */,
-				AA7DF062148B8DFA00DD0E05 /* NIOperations.m in Sources */,
-				AA7DF063148B8DFA00DD0E05 /* NIPaths.m in Sources */,
-				AA7DF064148B8DFA00DD0E05 /* NIRuntimeClassModifications.m in Sources */,
-				AA7DF065148B8DFA00DD0E05 /* NISDKAvailability.m in Sources */,
-				AA7DF066148B8DFA00DD0E05 /* NIState.m in Sources */,
-				AA7DF067148B8DFA00DD0E05 /* NIViewRecycler.m in Sources */,
-				AA7DF068148B8DFA00DD0E05 /* NSData+NimbusCore.m in Sources */,
-				AA7DF069148B8DFA00DD0E05 /* NSString+NimbusCore.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		AA7DF082148B911E00DD0E05 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				AA7DF094148B919F00DD0E05 /* NINetworkImageRequest.m in Sources */,
-				AA7DF095148B919F00DD0E05 /* NINetworkImageView.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		AA7DF09D148B982F00DD0E05 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				AA7DF0B1148B98B500DD0E05 /* NIAttributedLabel.m in Sources */,
-				AA7DF0B2148B98B500DD0E05 /* NSAttributedString+NimbusAttributedLabel.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		DB3A230513FD4B8E00614220 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -3202,33 +2852,6 @@
 			targetProxy = DB84BDB213EFDF8F00DACCFE /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
-
-/* Begin PBXVariantGroup section */
-		AA7DF04F148B8C7F00DD0E05 /* InfoPlist.strings */ = {
-			isa = PBXVariantGroup;
-			children = (
-				AA7DF050148B8C7F00DD0E05 /* en */,
-			);
-			name = InfoPlist.strings;
-			sourceTree = "<group>";
-		};
-		AA7DF08D148B911F00DD0E05 /* InfoPlist.strings */ = {
-			isa = PBXVariantGroup;
-			children = (
-				AA7DF08E148B911F00DD0E05 /* en */,
-			);
-			name = InfoPlist.strings;
-			sourceTree = "<group>";
-		};
-		AA7DF0A8148B983000DD0E05 /* InfoPlist.strings */ = {
-			isa = PBXVariantGroup;
-			children = (
-				AA7DF0A9148B983000DD0E05 /* en */,
-			);
-			name = InfoPlist.strings;
-			sourceTree = "<group>";
-		};
-/* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
 		663B525D1445052800CC26DF /* Debug */ = {
@@ -4280,168 +3903,6 @@
 			};
 			name = Release;
 		};
-		AA7DF053148B8C7F00DD0E05 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_SEARCH_USER_PATHS = NO;
-				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
-				COPY_PHASE_STRIP = NO;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				FRAMEWORK_VERSION = A;
-				GCC_C_LANGUAGE_STANDARD = gnu99;
-				GCC_DYNAMIC_NO_PIC = NO;
-				GCC_OPTIMIZATION_LEVEL = 0;
-				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "NimbusCoreFramework/NimbusCoreFramework-Prefix.pch";
-				GCC_PREPROCESSOR_DEFINITIONS = (
-					"DEBUG=1",
-					"$(inherited)",
-				);
-				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
-				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
-				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
-				INFOPLIST_FILE = "NimbusCoreFramework/NimbusCoreFramework-Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				WRAPPER_EXTENSION = framework;
-			};
-			name = Debug;
-		};
-		AA7DF054148B8C7F00DD0E05 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_SEARCH_USER_PATHS = NO;
-				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
-				COPY_PHASE_STRIP = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				FRAMEWORK_VERSION = A;
-				GCC_C_LANGUAGE_STANDARD = gnu99;
-				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "NimbusCoreFramework/NimbusCoreFramework-Prefix.pch";
-				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
-				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
-				INFOPLIST_FILE = "NimbusCoreFramework/NimbusCoreFramework-Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				VALIDATE_PRODUCT = YES;
-				WRAPPER_EXTENSION = framework;
-			};
-			name = Release;
-		};
-		AA7DF092148B911F00DD0E05 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_SEARCH_USER_PATHS = NO;
-				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
-				COPY_PHASE_STRIP = NO;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				FRAMEWORK_VERSION = A;
-				GCC_C_LANGUAGE_STANDARD = gnu99;
-				GCC_DYNAMIC_NO_PIC = NO;
-				GCC_OPTIMIZATION_LEVEL = 0;
-				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "NimbusNetworkImageFramework/NimbusNetworkImageFramework-Prefix.pch";
-				GCC_PREPROCESSOR_DEFINITIONS = (
-					"DEBUG=1",
-					"$(inherited)",
-				);
-				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
-				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
-				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
-				INFOPLIST_FILE = "NimbusNetworkImageFramework/NimbusNetworkImageFramework-Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				WRAPPER_EXTENSION = framework;
-			};
-			name = Debug;
-		};
-		AA7DF093148B911F00DD0E05 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_SEARCH_USER_PATHS = NO;
-				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
-				COPY_PHASE_STRIP = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				FRAMEWORK_VERSION = A;
-				GCC_C_LANGUAGE_STANDARD = gnu99;
-				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "NimbusNetworkImageFramework/NimbusNetworkImageFramework-Prefix.pch";
-				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
-				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
-				INFOPLIST_FILE = "NimbusNetworkImageFramework/NimbusNetworkImageFramework-Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				VALIDATE_PRODUCT = YES;
-				WRAPPER_EXTENSION = framework;
-			};
-			name = Release;
-		};
-		AA7DF0AC148B983000DD0E05 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_SEARCH_USER_PATHS = NO;
-				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
-				COPY_PHASE_STRIP = NO;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				FRAMEWORK_VERSION = A;
-				GCC_C_LANGUAGE_STANDARD = gnu99;
-				GCC_DYNAMIC_NO_PIC = NO;
-				GCC_OPTIMIZATION_LEVEL = 0;
-				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "NimbusAttributedLabelFramework/NimbusAttributedLabelFramework-Prefix.pch";
-				GCC_PREPROCESSOR_DEFINITIONS = (
-					"DEBUG=1",
-					"$(inherited)",
-				);
-				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
-				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
-				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
-				INFOPLIST_FILE = "NimbusAttributedLabelFramework/NimbusAttributedLabelFramework-Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				WRAPPER_EXTENSION = framework;
-			};
-			name = Debug;
-		};
-		AA7DF0AD148B983000DD0E05 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_SEARCH_USER_PATHS = NO;
-				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
-				COPY_PHASE_STRIP = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				FRAMEWORK_VERSION = A;
-				GCC_C_LANGUAGE_STANDARD = gnu99;
-				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "NimbusAttributedLabelFramework/NimbusAttributedLabelFramework-Prefix.pch";
-				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
-				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
-				INFOPLIST_FILE = "NimbusAttributedLabelFramework/NimbusAttributedLabelFramework-Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				VALIDATE_PRODUCT = YES;
-				WRAPPER_EXTENSION = framework;
-			};
-			name = Release;
-		};
 		DB3A232813FD4B8E00614220 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -4842,33 +4303,6 @@
 			buildConfigurations = (
 				66C3A6C2143D61140048542F /* Debug */,
 				66C3A6C3143D61140048542F /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		AA7DF055148B8C8000DD0E05 /* Build configuration list for PBXNativeTarget "NimbusCoreFramework" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				AA7DF053148B8C7F00DD0E05 /* Debug */,
-				AA7DF054148B8C7F00DD0E05 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		AA7DF091148B911F00DD0E05 /* Build configuration list for PBXNativeTarget "NimbusNetworkImageFramework" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				AA7DF092148B911F00DD0E05 /* Debug */,
-				AA7DF093148B911F00DD0E05 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		AA7DF0AE148B983000DD0E05 /* Build configuration list for PBXNativeTarget "NimbusAttributedLabelFramework" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				AA7DF0AC148B983000DD0E05 /* Debug */,
-				AA7DF0AD148B983000DD0E05 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
