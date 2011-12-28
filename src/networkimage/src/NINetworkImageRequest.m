@@ -345,8 +345,8 @@
 
     // Create our final composite image.
     CGContextRef dstBmp = CGBitmapContextCreate(NULL,
-                                                displaySize.width * screenScale,
-                                                displaySize.height * screenScale,
+                                                (size_t)(displaySize.width * screenScale),
+                                                (size_t)(displaySize.height * screenScale),
                                                 8,
                                                 0,
                                                 colorSpace,
