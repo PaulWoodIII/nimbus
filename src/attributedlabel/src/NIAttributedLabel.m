@@ -294,7 +294,7 @@
 
 ///////////////////////////////////////////////////////////////////////////////////////////////////
 - (void)setStrokeColor:(UIColor*)color range:(NSRange)range {
-  [_attributedString setStrokeColor:_strokeColor range:range];
+  [_attributedString setStrokeColor:color range:range];
 
   [self attributedTextDidChange];
 }
@@ -629,7 +629,7 @@
             highlightRect = linkRect;
 
           } else {
-            highlightRect = CGRectUnion(rect, linkRect);
+            highlightRect = CGRectUnion(highlightRect, linkRect);
           }
         }
 
