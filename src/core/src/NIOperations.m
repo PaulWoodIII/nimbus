@@ -90,7 +90,7 @@
       [self operationDidFinish];
     }
 
-  } else {
+  } else { // COV_NF_START
     // Load the image from the network then.
     [self operationDidStart];
 
@@ -112,7 +112,7 @@
 
       [self operationWillFinish];
       [self operationDidFinish];
-    }
+    } // COV_NF_END
   }
 
   NI_RELEASE_SAFELY(pool);
@@ -193,7 +193,7 @@
 
 #if NS_BLOCKS_AVAILABLE
   if (nil != self.willFinishBlock) {
-    self.willFinishBlock();
+    self.willFinishBlock(self);
   }
 #endif // #if NS_BLOCKS_AVAILABLE
 }
@@ -216,7 +216,7 @@
 
 #if NS_BLOCKS_AVAILABLE
   if (nil != self.didStartBlock) {
-    self.didStartBlock();
+    self.didStartBlock(self);
   }
 #endif // #if NS_BLOCKS_AVAILABLE
 }
@@ -234,7 +234,7 @@
 
 #if NS_BLOCKS_AVAILABLE
   if (nil != self.didFinishBlock) {
-    self.didFinishBlock();
+    self.didFinishBlock(self);
   }
 #endif // #if NS_BLOCKS_AVAILABLE
 }
@@ -252,7 +252,7 @@
 
 #if NS_BLOCKS_AVAILABLE
   if (nil != self.didFailWithErrorBlock) {
-    self.didFailWithErrorBlock(error);
+    self.didFailWithErrorBlock(self, error);
   }
 #endif // #if NS_BLOCKS_AVAILABLE
 }
