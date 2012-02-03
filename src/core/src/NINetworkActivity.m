@@ -101,6 +101,7 @@ void NISwizzleMethodsForNetworkActivityDebugging(void);
 
 @end
 
+#pragma GCC diagnostic ignored "-Wselector"
 
 ///////////////////////////////////////////////////////////////////////////////////////////////////
 void NISwizzleMethodsForNetworkActivityDebugging(void) {
@@ -109,6 +110,7 @@ void NISwizzleMethodsForNetworkActivityDebugging(void) {
                         @selector(nimbusDebugSetNetworkActivityIndicatorVisible:));
 }
 
+#pragma GCC diagnostic warning "-Wselector"
 
 ///////////////////////////////////////////////////////////////////////////////////////////////////
 void NIEnableNetworkActivityDebugging(void) {

@@ -169,6 +169,8 @@
 #pragma mark -
 #pragma mark Internal consistent implementation of state changes
 
+#pragma GCC diagnostic ignored "-Wselector"
+
 
 ///////////////////////////////////////////////////////////////////////////////////////////////////
 - (void)_didStartLoading {
@@ -178,7 +180,9 @@
 
   [self networkImageViewDidStartLoading];
 }
+#pragma GCC diagnostic warning "-Wselector"
 
+#pragma GCC diagnostic ignored "-Wselector"
 
 ///////////////////////////////////////////////////////////////////////////////////////////////////
 - (void)_didFinishLoadingWithImage: (UIImage *)image
@@ -211,6 +215,7 @@
 
   [self networkImageViewDidLoadImage:image];
 }
+#pragma GCC diagnostic warning "-Wselector"
 
 
 ///////////////////////////////////////////////////////////////////////////////////////////////////
