@@ -223,6 +223,8 @@
   }
 }
 
+#pragma GCC diagnostic ignored "-Wselector"
+
 
 ///////////////////////////////////////////////////////////////////////////////////////////////////
 + (UIImage *)imageFromSource: (UIImage *)src
@@ -405,6 +407,7 @@
 
   return resultImage;
 }
+#pragma GCC diagnostic warning "-Wselector"
 
 
 @end

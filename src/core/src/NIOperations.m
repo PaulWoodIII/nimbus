@@ -184,7 +184,7 @@
                       waitUntilDone: [NSThread isMainThread]];
 }
 
-
+#pragma GCC diagnostic ignored "-Wselector"
 ///////////////////////////////////////////////////////////////////////////////////////////////////
 - (void)operationWillFinish {
   if ([self.delegate respondsToSelector:@selector(operationWillFinish:)]) {
@@ -197,14 +197,14 @@
   }
 #endif // #if NS_BLOCKS_AVAILABLE
 }
-
+#pragma GCC diagnostic warning "-Wselector"
 
 ///////////////////////////////////////////////////////////////////////////////////////////////////
 ///////////////////////////////////////////////////////////////////////////////////////////////////
 #pragma mark -
 #pragma mark Main Thread
 
-
+#pragma GCC diagnostic ignored "-Wselector"
 ///////////////////////////////////////////////////////////////////////////////////////////////////
 - (void)onMainThreadOperationDidStart {
   // This method should only be called on the main thread.
@@ -220,8 +220,9 @@
   }
 #endif // #if NS_BLOCKS_AVAILABLE
 }
+#pragma GCC diagnostic warning "-Wselector"
 
-
+#pragma GCC diagnostic ignored "-Wselector"
 ///////////////////////////////////////////////////////////////////////////////////////////////////
 - (void)onMainThreadOperationDidFinish {
   // This method should only be called on the main thread.
@@ -237,8 +238,9 @@
   }
 #endif // #if NS_BLOCKS_AVAILABLE
 }
+#pragma GCC diagnostic warning "-Wselector"
 
-
+#pragma GCC diagnostic ignored "-Wselector"
 ///////////////////////////////////////////////////////////////////////////////////////////////////
 - (void)onMainThreadOperationDidFailWithError:(NSError *)error {
   // This method should only be called on the main thread.
@@ -254,6 +256,6 @@
   }
 #endif // #if NS_BLOCKS_AVAILABLE
 }
-
+#pragma GCC diagnostic warning "-Wselector"
 
 @end

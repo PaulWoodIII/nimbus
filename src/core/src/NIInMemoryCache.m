@@ -427,6 +427,7 @@
 @synthesize maxNumberOfPixels             = _maxNumberOfPixels;
 @synthesize maxNumberOfPixelsUnderStress  = _maxNumberOfPixelsUnderStress;
 
+#pragma GCC diagnostic ignored "-Wselector"
 
 ///////////////////////////////////////////////////////////////////////////////////////////////////
 - (NSUInteger)numberOfPixelsUsedByImage:(UIImage *)image {
@@ -441,6 +442,7 @@
   return numberOfPixels;
 }
 
+#pragma GCC diagnostic warning "-Wselector"
 
 ///////////////////////////////////////////////////////////////////////////////////////////////////
 - (void)removeAllObjects {
