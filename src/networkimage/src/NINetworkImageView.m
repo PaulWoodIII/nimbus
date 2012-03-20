@@ -222,6 +222,10 @@
 - (void)_didFailToLoadWithError:(NSError *)error {
   self.operation = nil;
 
+  if ([self.delegate respondsToSelector:@selector(networkImageViewDidFailLoad:)]) {
+    [self.delegate networkImageViewDidFailLoad:error];
+  }
+
   [self networkImageViewDidFailToLoad:error];
 }
 
